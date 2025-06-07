@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #525252;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #ff6347;
+}
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.gerador-section {
+  display: flex;
+  justify-content: center;
+
+}
+
+.gerador-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 4rem;
+  width: fit-content;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.gerador-container label {
+  color:#333;
+}
+
+.gerador-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.gerador-container button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gerador-container button:hover {
+  opacity: 0.9;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+}
+
+.title-descricao {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.descricao {
+  margin-top: 1rem;
+  padding: 2rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  aspect-ratio: 16 / 9;
+}
+
+.galeria img:hover {
+  transform: scale(0.98);
+  transition: transform 0.2s ease;
+}
+
+.contato-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 4rem;
+  width: 500px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.contato-form input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contato-form button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contato-form button:hover {
+  opacity: 0.9;
+}

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
     <header>
-        <h1>Galeria de Imagens</h1>
+        <h1 class="title">Galeria de Imagens Geradas</h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="gerar.html">Gerar Imagem</a></li>
@@ -19,9 +20,17 @@
     </header>
     
     <main>
-        <h2>Imagens Geradas</h2>
-        <img src="https://picsum.photos/300/200" alt="Imagem gerada">
-        <img src="https://picsum.photos/300/200" alt="Imagem gerada">
+      <div class="galeria">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Montanhas ao pôr do sol">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Floresta com neblina">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Cachoeira em meio à natureza">
+        <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=400&q=80" alt="Campo de flores">
+      </div>
     </main>
+
+    <footer>
+        <p>Gerador de Imagens com IA. Projeto para a disciplina de Introdução a Computação.</p>
+        <p>
+    </footer>
 </body>
 </html>

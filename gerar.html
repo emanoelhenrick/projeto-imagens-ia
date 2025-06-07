@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerar Imagem</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
 </head>
 <body>
     <header>
-        <h1>Gerar Imagem</h1>
+        <h1 class="title">Gerar Imagem</h1>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
@@ -19,12 +20,18 @@
     </header>
     
     <main>
-        <h2>Descreva a imagem desejada</h2>
-        <form>
-            <label for="descricao">Descrição:</label>
-            <input type="text" id="descricao" name="descricao">
-            <button type="submit">Gerar</button>
-        </form>
+        <section class="gerador-section">
+          <form action="" class="gerador-container">
+            <label for="descricao">Descrição da Imagem:</label>
+            <textarea id="descricao" name="descricao" rows="4" cols="50" placeholder="Digite a descrição da imagem que deseja gerar..."></textarea>
+            <button type="submit">Gerar Imagem</button>
+          </form>
+        </section>
     </main>
+
+    <footer>
+        <p>Gerador de Imagens com IA. Projeto para a disciplina de Introdução a Computação.</p>
+        <p>
+    </footer>
 </body>
 </html>
